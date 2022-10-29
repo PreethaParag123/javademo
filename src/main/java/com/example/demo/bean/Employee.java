@@ -5,27 +5,28 @@ public class Employee
 
 
 		// TODO Auto-generated constructor stu
-		private String Emp_name = "a";
-		private String Emp_email = "b";
-		 
-		
-		public Employee(String emp_name, String emp_email) {
+		private String empname = "a";
+		private String empemail = "b";
+		public Employee(String empname, String empemail) {
 			super();
-			Emp_name = emp_name;
-			Emp_email = emp_email;
+			this.empname = empname;
+			this.empemail = empemail;
 		}
-		public String getEmp_name() {
-			return Emp_name;
+		 
+		public String getEmpname() {
+			return empname;
 		}
-		public void setEmp_name(String emp_name) {
-			Emp_name = emp_name;
+		public void setEmpname(String empname) {
+			this.empname = empname;
 		}
-		public String getEmp_email() {
-			return Emp_email;
+		public String getEmpemail() {
+			return empemail;
 		}
-		public void setEmp_email(String emp_email) {
-			Emp_email = emp_email;
+		public void setEmpemail(String empemail) {
+			this.empemail = empemail;
 		}
+		
+		
 		
 		
 		
